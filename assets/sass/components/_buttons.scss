@@ -1,0 +1,11 @@
+.button-1{
+ @include boton(#ffffff,#5DADE2);
+}
+
+.button-2{
+   @include boton (#ffffff, #fa8072);
+}
+.botones{
+    display: flex;
+    justify-content: flex-end;
+}
